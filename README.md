@@ -26,3 +26,16 @@ Usage
 Run the app:
 python fridge.py
 Follow the prompts to add, update, or remove items from your fridge.
+
+
+**How It Works**
+The app stores items in an SQLite database.
+Users can add items with quantity and optional expiry date.
+Users can view the fridge inventory.
+Users can remove an item from the fridge.
+Users can check if an item exists in the fridge.
+
+**Possible Enhancements**
+✅ Add a feature to automatically remove expired items
+✅ Use a GUI with Tkinter or Flask for a better user experience
+✅ Implement a barcode scanner for adding items easily
